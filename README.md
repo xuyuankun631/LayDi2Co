@@ -69,15 +69,15 @@ Please download the public datasets at the following webpages. Put it in your fo
 
 
 - Comparison of quantitative results (i.e., pIOU, Overlap, Alignment and FID) of layout generation on Rico with various constraint settings. ↓: Lower is better; - : no results are reported. The values of Alignment, Overlap, and pIOU are multiplied by 100 for clarity, with the best and second-best results highlighted in bolded and underlined, respectively. Our method provides general superior results over the metrics.
-![](Figure/image1.png)
-![](Figure/image2.png)
+![](LayDi2Co-master/Figure/image1.png)
+![](LayDi2Co-master/Figure/image2.png)
 
 - Qualitative comparison of layout generation results on the PubLayNet dataset under three conditioning settings: category + size, category only, and unconditioned generation. 
 The first column shows the ground-truth layouts, while the last column presents the results produced by our method.
-![](Figure/image3.png)
+![](LayDi2Co-master/Figure/image3.png)
 
 - We obtain four samples from model to demonstrate the effect of model generation
-![](Figure/image4.png)
+![](LayDi2Co-master/Figure/image4.png)
 
 
 
