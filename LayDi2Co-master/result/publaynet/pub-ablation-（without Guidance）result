@@ -1,0 +1,59 @@
+Real data:
+piou_gt:  0.04576
+alignment_gt:  0.0015970895219849703
+overlap_gt:  0.21993
+alignment2_gt:  0.01401
+__________________________________________________________________________________________________________________
+Single,
+epochs = 1200,
+batch_size = 64,
+lr = 0.0001,
+num_warmup_steps = 100_000,
+weight_decay = 1e-6,
+epsilon = 1e-8
+betas = (0.95, 0.999)
+_____________________________
+whole_box
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候 cfg = 0 pred_labels:
+Predicted data:
+FID:  20.416409248409366
+piou_pred:  0.61804
+alignment_pred:  0.014495424376348895
+overlap_pred:  6.24632
+alignment2_pred:  0.10919
+
+
+
+_____________________________
+loc
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg = 0 pred_labels:
+Predicted data:
+FID:  9.085957065917967
+piou_pred:  0.9739
+alignment_pred:  0.018550669944590426
+overlap_pred:  7.42146
+alignment2_pred:  0.13914
+
+
+
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 pred_labels:
+Predicted data:
+FID:  8.868412790568158
+piou_pred:  0.78099
+alignment_pred:  0.018457472840991477
+overlap_pred:  6.83824
+alignment2_pred:  0.13268
+
+
+
+
+
+
+
+
+
+
+
+

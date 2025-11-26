@@ -1,0 +1,289 @@
+Real data:
+piou_gt:  0.04576
+alignment_gt:  0.0015970895219849703
+overlap_gt:  0.21993
+alignment2_gt:  0.01401
+__________________________________________________________________________________________________________________
+Single,
+epochs = 1200,
+batch_size = 64,
+lr = 0.0001,
+num_warmup_steps = 100_000,
+weight_decay = 1e-6,
+epsilon = 1e-8
+betas = (0.95, 0.999)
+_____________________________
+whole_box
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候 cfg-w = 0 :
+Predicted data:
+FID:  3.4486651045020835
+piou_pred:  0.27257
+alignment_pred:  0.009608845463939794
+overlap_pred:  2.52102
+alignment2_pred:  0.06292
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = 0.01 :
+Predicted data:
+FID:  3.5328047381706256
+piou_pred:  0.20374
+alignment_pred:  0.009596921709171103
+overlap_pred:  2.16458
+alignment2_pred:  0.07211
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候 cfg-w = 0.02 :---------------------
+Predicted data:
+FID:  3.709117468710474
+piou_pred:  0.18133
+alignment_pred:  0.009591480341142999
+overlap_pred:  2.0707
+alignment2_pred:  0.06466
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = 0.03 :
+Predicted data:
+FID:  4.163457557298614
+piou_pred:  0.16428
+alignment_pred:  0.009607710220911059
+overlap_pred:  1.95245
+alignment2_pred:  0.07348
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = 0.04 :
+Predicted data:
+FID:  7.4795813459413125
+piou_pred:  0.11539
+alignment_pred:  0.010022376728244778
+overlap_pred:  1.64061
+alignment2_pred:  0.0643
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = 0.05 :
+Predicted data:
+FID:  10.341156862173364
+piou_pred:  0.09145
+alignment_pred:  0.010103509791671099
+overlap_pred:  1.54635
+alignment2_pred:  0.05928
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = 0.1 :
+Predicted data:
+FID:  17.023368382986263
+piou_pred:  0.042
+alignment_pred:  0.011733103368679798
+overlap_pred:  0.73161
+alignment2_pred:  0.06798
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = -0.01 :
+Predicted data:
+FID:  3.943062260392878
+piou_pred:  0.37346
+alignment_pred:  0.009661649704901095
+overlap_pred:  2.9357
+alignment2_pred:  0.06651
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = -0.05 :
+Predicted data:
+Predicted data:
+FID:  6.7017017772005545
+piou_pred:  1.49393
+alignment_pred:  0.0107301166512618
+overlap_pred:  7.11876
+alignment2_pred:  0.08803
+_____________________________
+test-epoch 1999 cond_type = whole_box generate_batchsize = 64 测试的时候  cfg-w = -0.1 :
+Predicted data:
+FID:  12.010984108604362
+piou_pred:  5.60195
+alignment_pred:  0.012804269780904586
+overlap_pred:  18.57437
+alignment2_pred:  0.12646
+
+
+
+
+
+loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0 :
+Predicted data:
+FID:  3.24506192577295
+piou_pred:  0.59695
+alignment_pred:  0.009951681948847697
+overlap_pred:  3.82638
+alignment2_pred:  0.0705
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0.01 :
+Predicted data:
+FID:  3.117694860233553
+piou_pred:  0.48361
+alignment_pred:  0.010108199892668503
+overlap_pred:  3.40059
+alignment2_pred:  0.04482
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0.02 :---------------------
+Predicted data:
+FID:  3.0469957948869023
+piou_pred:  0.44303
+alignment_pred:  0.010359559189370898
+overlap_pred:  3.07503
+alignment2_pred:  0.04432
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0.03 :
+Predicted data:
+FID:  3.219329017386133
+piou_pred:  0.42432
+alignment_pred:  0.01022684746589112
+overlap_pred:  2.83056
+alignment2_pred:  0.04612
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0.04 :
+Predicted data:
+FID:  3.265434800697076
+piou_pred:  0.38187
+alignment_pred:  0.01001425537702038
+overlap_pred:  2.59781
+alignment2_pred:  0.04596
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0.05 :
+Predicted data:
+FID:  3.3987964434743617
+piou_pred:  0.33473
+alignment_pred:  0.010555756153297494
+overlap_pred:  2.25631
+alignment2_pred:  0.05122
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = 0.1 :
+Predicted data:
+FID:  6.518630554725405
+piou_pred:  0.20988
+alignment_pred:  0.02124640130889237
+overlap_pred:  2.09333
+alignment2_pred:  0.21693
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = -0.01 :
+Predicted data:
+FID:  3.3865526880745506
+piou_pred:  0.66215
+alignment_pred:  0.010416648512266114
+overlap_pred:  3.90979
+alignment2_pred:  0.05401
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = -0.05 :
+Predicted data:
+FID:  3.4477122292846616
+piou_pred:  2.01818
+alignment_pred:  0.01297186871230604
+overlap_pred:  11.92733
+alignment2_pred:  0.04932
+_____________________________
+test-epoch 1999 cond_type = loc generate_batchsize = 64 测试的时候 cfg-w = -0.1 :
+Predicted data:
+FID:  12.501943451250469
+piou_pred:  5.38432
+alignment_pred:  0.015761074442371497
+overlap_pred:  27.20337
+alignment2_pred:  0.08316
+
+
+
+
+
+
+
+all all all all all all all all all all all all all all all all all all all all
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0 :
+Predicted data:
+FID:  6.2619071917380325
+piou_pred:  0.3547
+alignment_pred:  0.008678817156782207
+overlap_pred:  2.2091
+alignment2_pred:  0.06419
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0.01 :
+Predicted data:
+FID:  5.96149133669428
+piou_pred:  0.29085
+alignment_pred:  0.008670816129670671
+overlap_pred:  1.95726
+alignment2_pred:  0.0704
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0.02 :---------------------
+Predicted data:
+FID:  5.897252172758556
+piou_pred:  0.2615
+alignment_pred:  0.008637867388289979
+overlap_pred:  1.85019
+alignment2_pred:  0.06464
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0.03 :
+Predicted data:
+FID:  6.140176746561423
+piou_pred:  0.2044
+alignment_pred:  0.00876497336542601
+overlap_pred:  1.65219
+alignment2_pred:  0.06989
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0.04 :
+Predicted data:
+FID:  6.654968608483983
+piou_pred:  0.18251
+alignment_pred:  0.00885019470466269
+overlap_pred:  1.56478
+alignment2_pred:  0.06575
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0.05 :
+Predicted data:
+FID:  7.51303182641459
+piou_pred:  0.17321
+alignment_pred:  0.00901580227749566
+overlap_pred:  1.52528
+alignment2_pred:  0.0647
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = 0.1:
+Predicted data:
+FID:  16.374926905010028
+piou_pred:  0.11356
+alignment_pred:  0.010315952687119195
+overlap_pred:  0.92937
+alignment2_pred:  0.06124
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = -0.01 :
+Predicted data:
+FID:  6.811550890882131
+piou_pred:  0.44597
+alignment_pred:  0.008747911126610193
+overlap_pred:  2.58321
+alignment2_pred:  0.06271
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = -0.05 :
+Predicted data:
+FID:  10.830321620429118
+piou_pred:  1.72133
+alignment_pred:  0.009299772052321742
+overlap_pred:  6.58385
+alignment2_pred:  0.08139
+_____________________________
+all
+test-epoch 1999 cond_type = all generate_batchsize = 64 测试的时候 cfg = 0 cfg-w = -0.1 :
+Predicted data:
+FID:  18.266978559461904
+piou_pred:  6.06796
+alignment_pred:  0.010757224227338373
+overlap_pred:  17.58512
+alignment2_pred:  0.09007
+
+
+
+
+
+
+
+
+

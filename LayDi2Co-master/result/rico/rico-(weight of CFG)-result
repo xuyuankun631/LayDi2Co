@@ -1,0 +1,295 @@
+Single,
+epochs = 1200,
+batch_size = 64,
+lr = 0.0001,
+num_warmup_steps = 100_000,
+weight_decay = 1e-6,
+epsilon = 1e-8
+betas = (0.95, 0.999)
+_____________________________________________________________________________________
+Real data:
+Real data:
+piou_gt:  19.70211
+alignment_gt:  0.006730608744780819
+overlap_gt:  55.37027
+alignment2_gt:  0.18455
+_____________________________
+测试的时候cfg w = 0
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = 0 :
+Predicted data:
+FID:  4.701722816668109
+piou_pred:  21.28156
+alignment_pred:  0.01503756699823693
+overlap_pred:  68.31347
+alignment2_pred:  0.14837
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = 0.01 :
+Predicted data:
+FID:  3.8332787402073905
+piou_pred:  19.77183
+alignment_pred:  0.01504719449577591
+overlap_pred:  65.99473
+alignment2_pred:  0.14381
+_____________________________
+测试的时候cfg w
+test-epoch 3999 cond_type = whole_box generate_batchsize = 64   cfg-w = 0.02 :---------------------
+Predicted data:
+FID:  3.926977230414991
+piou_pred:  17.20039
+alignment_pred: 0.01403067595659695
+overlap_pred:  65.83318
+alignment2_pred:  0.13735
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = 0.03 :
+Predicted data:
+FID:  4.192650421947974
+piou_pred:  15.84561
+alignment_pred:  0.016032390982249023
+overlap_pred:  65.63967
+alignment2_pred:  0.14451
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = 0.04 :
+Predicted data:
+FID:  4.701722816668109
+piou_pred:  14.67224
+alignment_pred:  0.01601381512538675
+overlap_pred:  65.39957
+alignment2_pred:  0.14555
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = 0.05 :
+Predicted data:
+FID:  5.5587164771441735
+piou_pred:  13.97438
+alignment_pred:  0.016971761085440053
+overlap_pred:  65.20552
+alignment2_pred:  0.14202
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = 0.1 :
+Predicted data:
+FID:  14.62377936460598
+piou_pred:  13.23522
+alignment_pred:  0.014825199588874757
+overlap_pred:  64.37035
+alignment2_pred:  0.13958
+_____________________________
+测试的时候cfg
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = -0.01 :
+Predicted data:
+FID:  4.087571000082562
+piou_pred:  22.21646
+alignment_pred:  0.01510535658650922
+overlap_pred:  66.53286
+alignment2_pred:  0.14567
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = -0.05 :
+Predicted data:
+FID:  4.449684579074244
+piou_pred:  22.71563
+alignment_pred:  0.015166936576646176
+overlap_pred:  66.84103
+alignment2_pred:  0.14622
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = whole_box generate_batchsize = 64   cfg-w = -0.1 :
+Predicted data:
+FID:  14.541784380706417
+piou_pred:  24.33333
+alignment_pred:  0.019755481753831183
+overlap_pred:  69.75629
+alignment2_pred:  0.21956
+_____________________________________________________________________________________
+
+
+
+
+loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc loc
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0:
+Predicted data:
+FID:  4.666529322790211
+piou_pred:  18.46807
+alignment_pred:  0.02802035578560828
+overlap_pred:  69.28082
+alignment2_pred:  0.28836
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0.01 :
+Predicted data:
+FID:  4.604586859354349
+piou_pred:  17.46807
+alignment_pred:  0.02284970903250025
+overlap_pred:  66.91954
+alignment2_pred:  0.23496
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0.02 :---------------------
+Predicted data:
+FID:  4.557321720776486
+piou_pred:  15.77081
+alignment_pred:  0.02255217990180776
+overlap_pred:  64.85787
+alignment2_pred:  0.21482
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0.03 :
+FID:  4.724339331090448
+piou_pred:  17.9466
+alignment_pred:  0.023426310304425497
+overlap_pred:  65.98296
+alignment2_pred:  0.23342
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0.04 :
+Predicted data:
+FID:  5.070869262299527
+piou_pred:  18.86523
+alignment_pred:  0.02377208567917955
+overlap_pred:  68.26305
+alignment2_pred:  0.24208
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0.05 :
+Predicted data:
+FID:  5.320448020890808
+piou_pred:  19.37182
+alignment_pred:  0.02527059076535931
+overlap_pred:  68.93377
+alignment2_pred:  0.24251
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = 0.1 :
+FID:  6.243024107662677
+piou_pred:  21.18515
+alignment_pred:  0.022654926862686955
+overlap_pred:  69.01835
+alignment2_pred:  0.25313
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = -0.01 :
+FID:  5.724339331090448
+piou_pred:  19.57319
+alignment_pred:  0.029089009957520076
+overlap_pred:  70.52673
+alignment2_pred:  0.26299
+_____________________________
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = -0.05 :
+Predicted data:
+FID:  6.777380465432884
+piou_pred:  20.1391
+alignment_pred:  0.02923109956209536
+overlap_pred:  69.11013
+alignment2_pred:  0.28091
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = loc generate_batchsize = 64   cfg-w = -0.1 :
+Predicted data:
+FID:  17.605916339414307
+piou_pred:  20.04379
+alignment_pred:  0.036371816339406045
+overlap_pred:  71.34043
+alignment2_pred:  0.35158
+
+
+
+
+
+
+all all all all all all all all all all all all all all all all all all all all all all all all all all all all all all
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0:
+Predicted data:
+FID:  18.170157408102796
+piou_pred:  18.29582
+alignment_pred:  0.02128876356466783
+overlap_pred:  62.54259
+alignment2_pred:  0.20573
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0.01 :
+Predicted data:
+FID:  18.099999984086287
+piou_pred:  17.42475
+alignment_pred:  0.0193061896433041
+overlap_pred:  60.57824
+alignment2_pred:  0.18814
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0.02 :---------------------
+Predicted data:
+FID:  17.828392609765365
+piou_pred:  16.30121
+alignment_pred:  0.018203285685043247
+overlap_pred:  59.63072
+alignment2_pred:  0.17423
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0.03 :
+Predicted data:
+FID:  18.37378081040322
+piou_pred:  16.98792
+alignment_pred:  0.024227129622582104
+overlap_pred:  61.34855
+alignment2_pred:  0.17365
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0.04 :
+Predicted data:
+FID:  19.295501300779506
+piou_pred:  18.33516
+alignment_pred:  0.024308869369087223
+overlap_pred:  61.14003
+alignment2_pred:  0.19437
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0.05 :
+Predicted data:
+FID:  19.257789156092542
+piou_pred:  19.1468
+alignment_pred:  0.024186888244003057
+overlap_pred:  60.93118
+alignment2_pred:  0.2208
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = 0.1 :
+FID:  20.616281356518073
+piou_pred:  15.27301
+alignment_pred:  0.025248028992625668
+overlap_pred:  59.89824
+alignment2_pred:  0.24757
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = -0.01 :
+Predicted data:
+FID:  19.39516209109479
+piou_pred:  19.54378
+alignment_pred:  0.02142277483220761
+overlap_pred:  63.10213
+alignment2_pred:  0.20216
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = -0.05 :
+Predicted data:
+FID:  34.69506138023007
+piou_pred:  16.87829
+alignment_pred:  0.01863941873273277
+overlap_pred:  60.97016
+alignment2_pred:  0.17057
+_____________________________
+测试的时候cfg w
+test-epoch 1199 cond_type = all generate_batchsize = 64   cfg-w = -0.1 :
+Predicted data:
+FID:  58.47366068792235
+piou_pred:  13.87959
+alignment_pred:  0.02436734671147805
+overlap_pred:  42.76463
+alignment2_pred:  0.26374
+
+
+
+
+
+
+
+
+
